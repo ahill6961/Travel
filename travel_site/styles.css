@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+ body {
+    font-size: 18px;
+    font-weight: 400;
+    height: 0px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url(../DW18-Project02/IMG_4522.jpg);
+    margin-left: 227px;
+  }
+
+#container {
+    width: 791px;
+    height: auto;
+    background-color: rgba(255,255,255,1.00);
+    margin-left: 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(travel_logo.jpg);
+}
+main {
+    width: 560px;
+    height: 1317px;
+    background-color: #BDBDBD;
+    float: left;
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #C79C00;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-shadow: 0px 0px #000000;
+    padding-left: 10px;
+    font-size: 28px;
+}
+.no_white_background, h1 {
+}
+p {
+    color: #C79C02;
+}
+a {
+}
+
+footer {
+    width: 768px;
+    /* [disabled]height: 295px; */
+    background-color: #C9AC3D;
+    float: none;
+}
+
+aside {
+    width: 150px;
+    height: 598px;
+    background-color: #C9AC3E;
+    float: left;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    font-size: 22px;
+}
+img {
+    float: right;
+    margin-top: -6px;
+    margin-right: -5px;
+}
+#container {
+    height: 250px;
+    width: 768px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 121px;
+    font-family: caprizant, sans-serif;
+    font-size: 20px;
+    height: 45px;
+}
+
+nav a:link {
+    color: #C79C01;
+    text-decoration: none;
+	padding: 8px; 
+}
+nav a:visited {
+    text-decoration: none;
+    color: #67097D;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #BDBDBE;
+	padding: 8px; 
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none; 
+	color: #191919;
+	
+	
+}.submit_btn {
+    width: 168px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #C9AB3C;
+    color: #FFFFFF;
+    font-size: 16px;
+   
+}
+
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+.no_white_background  {
+}
+.white_background {
+    background-color: #FAFAFA;
+    font-size: 22px;
+}
+.no_white_background, p {
+    font-size: 27px;
+}
+.whatie_background {
+}
